@@ -1,0 +1,36 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Green accent bar -->
+  <rect x="0" y="0" width="8" height="300" fill="#00ff7f"/>
+
+  <!-- Title -->
+  <text x="60" y="100" font-family="'Courier New', monospace" font-size="56" font-weight="bold" fill="#ffffff">NBG CLI</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="150" font-family="'Courier New', monospace" font-size="24" fill="#888888">Open banking &amp; account APIs</text>
+
+  <!-- Install command box -->
+  <rect x="60" y="190" width="540" height="60" rx="8" fill="#1e1e1e" stroke="#00ff7f" stroke-width="2"/>
+  <text x="80" y="230" font-family="'Courier New', monospace" font-size="20" fill="#00ff7f">npm install -g @ktmcp-cli/nbg</text>
+
+  <!-- Terminal window badge -->
+  <rect x="980" y="100" width="180" height="100" rx="4" fill="#0a0e0f" stroke="#00ff7f" stroke-width="2"/>
+
+  <!-- Traffic lights -->
+  <circle cx="995" cy="115" r="3" fill="#ff5f56"/>
+  <circle cx="1010" cy="115" r="3" fill="#ffbd2e"/>
+  <circle cx="1025" cy="115" r="3" fill="#27c93f"/>
+
+  <!-- Terminal text -->
+  <text x="995" y="150" font-family="'Courier New', monospace" font-size="16" fill="#00ff7f">$ kill -9</text>
+  <text x="995" y="180" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="#ffffff">MCP</text>
+</svg>
